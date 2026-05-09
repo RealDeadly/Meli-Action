@@ -1,4 +1,3 @@
-```yaml
 name: "Spotify & SoundCloud Downloader"
 
 on:
@@ -222,4 +221,3 @@ jobs:
         run: |
           docker rm -f downtify 2>/dev/null || true
           rm -rf release_files
-```
